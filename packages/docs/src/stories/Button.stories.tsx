@@ -13,14 +13,26 @@ export const Primary: StoryObj<ButtonProps> = {}
 
 export const Secondary: StoryObj<ButtonProps> = {
     args: {
-        variant: 'secondary'
+        variant: 'secondary',
+        children: 'Create New'
     }
 }
-
 
 export const Tertiary: StoryObj<ButtonProps> = {
     args: {
         variant: 'tertiary',
         children: "Cancel"
+    }
+}
+
+export const Small: StoryObj<ButtonProps> = {
+    args:{
+        size: 'sm'
+    }
+}
+
+export const Disabled: StoryObj<ButtonProps> = {
+    args:{
+       disabled: true
     }
 }
