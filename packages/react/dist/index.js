@@ -256,11 +256,22 @@ var Button = styled("button", {
       primary: {
         color: "$white",
         background: "$ignite500"
+      },
+      secondary: {
+        color: "$ignite300",
+        border: "2px solid $ignite500"
+      }
+    },
+    size: {
+      md: {
+        padding: "0 $4",
+        height: 46
       }
     }
   },
   defaultVariants: {
-    variant: "primary"
+    variant: "primary",
+    size: "md"
   }
 });
 // Annotate the CommonJS export names for ESM import in node:
