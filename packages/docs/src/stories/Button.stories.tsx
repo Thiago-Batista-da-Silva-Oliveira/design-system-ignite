@@ -16,3 +16,11 @@ export const Secondary: StoryObj<ButtonProps> = {
         variant: 'secondary'
     }
 }
+
+
+export const Tertiary: StoryObj<ButtonProps> = {
+    args: {
+        variant: 'tertiary',
+        children: "Cancel"
+    }
+}
